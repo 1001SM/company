@@ -171,8 +171,44 @@ nav.globalMenuSp.active {
   margin: auto;
 }
 
+.flex-column > p {
+  font-size: 0.5rem;
+}
+
+.text-center > img {
+  width: 70%;
+}
+
 .company-th {
   width: 30%;
+}
+
+.company-details {
+  width: 90%;
+  margin: auto;
+}
+
+.tbody {
+  border-collapse:collapse;
+}
+.tbody th,
+.tbody td {
+  border: #696969 solid 0.5px;
+}
+
+.tbody.employment > tr > th {
+  width: 30%;
+}
+
+.tbody.employment > tr > td {
+  width: 70%;
+}
+.tbody.employment > tr > td > ul {
+  padding-left: 20px;
+}
+
+.employment-img {
+  margin: 20px auto auto auto;
 }
 
 .col-12.col-md-auto.text-center {
@@ -222,6 +258,10 @@ nav.globalMenuSp.active {
 @media (max-width: 991.98px) {
   /* md タブレット・スマートフォン向け */
 
+  .container > h2 {
+    font-size: 2rem;
+  }
+
   #nav02 .nav-item {
     border-left: none;
     border-right: none;
@@ -231,6 +271,11 @@ nav.globalMenuSp.active {
 
   @media (max-width: 575.98px) {
     /* xs スマートフォン向け */
+
+    .card-height {
+      height: 20rem;
+    }
+
 
     /* フッター */
     #footer-sns img {
